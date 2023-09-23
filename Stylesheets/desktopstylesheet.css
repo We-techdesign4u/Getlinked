@@ -19,15 +19,30 @@
 
 @font-face {
   font-family: "Unica";
-  src: url("./UnicaOne-Regular.woff");
+  src: url("./UnicaOne-Regular.ttf");
   font-weight: 100;
 }
 
-@font-face {
+/* @font-face {
   font-family: "MadeTommy";
   src: url("./MADETOMMYOutline-Bold.woff"), url("./MADETOMMYOutline-Bold.woff2"),
     url("./MADETOMMYOutline-Bold.eot");
   font-weight: bold;
+} */
+
+@font-face {
+  font-family: "MadeTommy";
+  src: url("https://db.onlinewebfonts.com/t/1b8467d55bcd60f809e4a9b9475d9d86.eot");
+  src: url("https://db.onlinewebfonts.com/t/1b8467d55bcd60f809e4a9b9475d9d86.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/1b8467d55bcd60f809e4a9b9475d9d86.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/1b8467d55bcd60f809e4a9b9475d9d86.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/1b8467d55bcd60f809e4a9b9475d9d86.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/1b8467d55bcd60f809e4a9b9475d9d86.svg#MADETOMMYOutline-Bold")
+      format("svg");
 }
 
 html {
