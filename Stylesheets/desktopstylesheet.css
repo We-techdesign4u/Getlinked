@@ -19,15 +19,14 @@
 
 @font-face {
   font-family: "Unica";
-  src: url("/Fonts/Others/UnicaOne-Regular.woff");
+  src: url("./UnicaOne-Regular.woff");
   font-weight: 100;
 }
 
 @font-face {
   font-family: "MadeTommy";
-  src: url("/Fonts/Others/MADETOMMYOutline-Bold.woff"),
-    url("/Fonts/Others/MADETOMMYOutline-Bold.woff2"),
-    url("/Fonts/Others/MADETOMMYOutline-Bold.eot");
+  src: url("./MADETOMMYOutline-Bold.woff"), url("./MADETOMMYOutline-Bold.woff2"),
+    url("./MADETOMMYOutline-Bold.eot");
   font-weight: bold;
 }
 
