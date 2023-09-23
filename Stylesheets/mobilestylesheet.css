@@ -1,33 +1,33 @@
 @font-face {
   font-family: "ClashDisplay";
-  src: url("Getlinked/Fonts/clashdisplay/ClashDisplayBold.woff");
-  src: url("Getlinked/Fonts/clashdisplay/ClashDisplayBold.woff2");
+  src: url("/Stylesheets/clashdisplay/ClashDisplayBold.woff");
+  src: url("/Fonts/clashdisplay/ClashDisplayBold.woff2");
   /* src: url("/Fonts/clashdisplay/ClashDisplay-Bold.woff2") format(".woff2"); */
   font-weight: bold;
 }
 
 @font-face {
   font-family: "montserrat";
-  src: url("Getlinked/Fonts/montserrat/Montserrat-Regular.woff");
+  src: url("/Fonts/montserrat/Montserrat-Regular.woff");
   font-weight: 100;
 }
 
 @font-face {
   font-family: "montserrat";
-  src: url("Getlinked/Fonts/montserrat/Montserrat-BoldItalic.woff");
+  src: url("/Fonts/montserrat/Montserrat-BoldItalic.woff");
   font-weight: 500;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Unica";
-  src: url("Getlinked/Fonts/Others/UnicaOne-Regular.woff");
+  src: url("/Fonts/Others/UnicaOne-Regular.woff");
   font-weight: 100;
 }
 
 @font-face {
   font-family: "MadeTommy";
-  src: url("Getlinked/Fonts/Others/MADETOMMYOutline-Bold.woff");
+  src: url("/Fonts/Others/MADETOMMYOutline-Bold.woff");
   font-weight: bold;
 }
 
