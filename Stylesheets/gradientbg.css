@@ -1,0 +1,82 @@
+.feathers2 div {
+  top: 0;
+  opacity: 0.3;
+  mix-blend-mode: normal;
+  filter: blur(55px);
+  display: flex;
+  width: 700px;
+  height: 700px;
+  position: absolute;
+  border-radius: 50%;
+  z-index: -10;
+
+  background: radial-gradient(
+    circle,
+    rgba(148, 29, 242, 1) 2%,
+    rgba(140, 9, 244, 0.46) 50%,
+    rgba(137, 29, 221, 0) 100%
+  );
+}
+
+#f1 {
+  left: 115px;
+  top: -51px;
+}
+
+#f2 {
+  left: 78px;
+  top: 1435px;
+}
+
+#f3 {
+  left: 1275px;
+  top: 1659px;
+}
+
+#f4 {
+  left: -136px;
+  top: 2456px;
+}
+
+#f5 {
+  left: 1029px;
+  top: 2771px;
+}
+
+#f6 {
+  left: 32px;
+  top: 5626px;
+}
+
+#f7 {
+  left: 1246px;
+  top: 5825px;
+}
+
+#f8 {
+  left: -217px;
+  top: 6625px;
+}
+
+#f9 {
+  left: 1217px;
+  top: 7325px;
+}
+
+#f10 {
+  left: -217px;
+  top: 8315px;
+  z-index: 10;
+}
+
+#f11 {
+  left: -200px;
+  top: 40px;
+  z-index: -10;
+}
+
+#f12 {
+  right: -200px;
+  top: 250px;
+  z-index: -10;
+}

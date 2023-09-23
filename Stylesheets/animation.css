@@ -1,0 +1,14 @@
+.introimg1 {
+  animation: mymove 0.5s ease-in-out forwards;
+
+  left: -100%;
+}
+
+@keyframes mymove {
+  /* from {
+    left: -100%;
+  } */
+  to {
+    left: 0px;
+  }
+}
