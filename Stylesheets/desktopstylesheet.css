@@ -1,7 +1,16 @@
 @font-face {
   font-family: "ClashDisplay";
-  src: url("Fonts/clashdisplay/ClashDisplay-Bold.woff");
-  src: url("Fonts/clashdisplay/ClashDisplay-Bold.woff2");
+  src: url("Fonts/clashdisplay/ClashDisplay-Bold.eot");
+  src: url("Fonts/clashdisplay/ClashDisplay-Bold.eot")
+      format("embedded-opentype"),
+    url("Fonts/clashdisplay/ClashDisplay-Bold.woff") format("woff"),
+    url("Fonts/clashdisplay/ClashDisplay-Bold.woff2") format("woff2");
+
+  /* src: url("fonts/fira/eot/FiraSans-Regular.eot");
+  src: url("fonts/fira/eot/FiraSans-Regular.eot") format("embedded-opentype"),
+    url("fonts/fira/woff2/FiraSans-Regular.woff2") format("woff2"),
+    url("fonts/fira/woff/FiraSans-Regular.woff") format("woff"),
+    url("fonts/fira/woff2/FiraSans-Regular.ttf") format("truetype"); */
   /* src: url("/Fonts/clashdisplay/ClashDisplay-Bold.woff2") format(".woff2"); */
   font-weight: bold;
 }
