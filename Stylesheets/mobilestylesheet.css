@@ -1,17 +1,22 @@
 @media screen and (max-width: 900px) {
+  html {
+    /* width: fit-content; */
+    overflow-x: hidden;
+  }
+
   body {
     padding: 0px;
     margin: 0px;
     width: 390px;
     display: flex;
     justify-content: center;
-    flex-grow: 1;
+    /* flex-grow: 1; */
   }
 
   .main {
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
+    /* flex-grow: 1; */
     width: 390px;
     align-items: center;
     position: relative;
