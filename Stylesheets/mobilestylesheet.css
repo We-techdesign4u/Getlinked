@@ -11,6 +11,7 @@
     display: flex;
     justify-content: center;
     flex-grow: 0;
+    overflow-x: hidden;
   }
 
   .main {
@@ -20,10 +21,12 @@
     width: 390px;
     align-items: center;
     position: relative;
+    overflow-x: hidden;
   }
 
   .stars svg {
     width: 15px;
+    overflow-x: hidden;
   }
 
   .backToTop {
