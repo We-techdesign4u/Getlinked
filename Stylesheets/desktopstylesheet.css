@@ -52,7 +52,7 @@ body {
   padding: 0px;
   margin: 0px;
   width: 100%;
-  width: 1512;
+  /* width: 1512; */
   display: flex;
   flex-grow: 1;
   justify-content: center;
@@ -62,7 +62,8 @@ body {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  width: 1512px;
+  width: 100%;
+  /* width: 1512px; */
   align-items: center;
   position: relative;
   margin: 0px;
