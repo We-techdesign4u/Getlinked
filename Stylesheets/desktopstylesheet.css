@@ -1,11 +1,11 @@
 @font-face {
   font-family: "ClashDisplay";
-  src: url("/Fonts/clashdisplay/ClashDisplayBold.woff");
-  src: url("/Fonts/clashdisplay/ClashDisplayBold.woff2"),
-    url("/Fonts/clashdisplay/ClashDisplay-Bold.eot"),
-    url("/Fonts/clashdisplay/ClashDisplay-Bold.ttf");
-
+  src: url("../fonts/ClashDisplay-Bold.woff2") format("woff2"),
+    url("../fonts/ClashDisplay-Bold.woff") format("woff"),
+    url("../fonts/ClashDisplay-Bold.ttf") format("truetype");
   font-weight: bold;
+  font-display: swap;
+  font-style: normal;
 }
 
 @font-face {

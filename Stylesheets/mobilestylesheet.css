@@ -1,38 +1,3 @@
-@font-face {
-  font-family: "ClashDisplay";
-  src: url("/Fonts/clashdisplay/ClashDisplayBold.woff");
-  src: url("/Fonts/clashdisplay/ClashDisplayBold.woff2"),
-    url("/Fonts/clashdisplay/ClashDisplay-Bold.eot"),
-    url("/Fonts/clashdisplay/ClashDisplay-Bold.ttf");
-
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: "montserrat";
-  src: url("/Fonts/montserrat/Montserrat-Regular.woff");
-  font-weight: 100;
-}
-
-@font-face {
-  font-family: "montserrat";
-  src: url("/Fonts/montserrat/Montserrat-BoldItalic.woff");
-  font-weight: 500;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Unica";
-  src: url("/Fonts/Others/UnicaOne-Regular.woff");
-  font-weight: 100;
-}
-
-@font-face {
-  font-family: "MadeTommy";
-  src: url("/Fonts/Others/MADETOMMYOutline-Bold.woff");
-  font-weight: bold;
-}
-
 @media screen and (max-width: 900px) {
   body {
     background-color: #150e28;
