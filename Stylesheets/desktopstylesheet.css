@@ -109,6 +109,7 @@ nav {
   background-color: rgba(18, 3, 26, 0.91);
   background-blend-mode: multiply;
   box-sizing: border-box;
+  width: 100%;
 }
 
 .logoContainer {
