@@ -1,13 +1,13 @@
 @media screen and (max-width: 900px) {
   html {
-    width: 390px;
+    width: 100%;
     overflow-x: hidden;
   }
 
   body {
     padding: 0px;
     margin: 0px;
-    width: 390px;
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-grow: 0;
@@ -18,7 +18,7 @@
     display: flex;
     flex-direction: column;
     flex-grow: 0;
-    width: 390px;
+    width: 100%;
     align-items: center;
     position: relative;
     overflow-x: hidden;
