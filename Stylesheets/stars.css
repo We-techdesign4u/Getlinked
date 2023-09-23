@@ -302,3 +302,49 @@
   fill: #d434fe;
   height: 25px;
 }
+
+@media screen and (max-width: 900px) {
+  .stars #s2,
+  .stars #s4,
+  .stars #s6,
+  .stars #s7,
+  .stars #s9,
+  .stars #s11,
+  .stars #s13,
+  .stars #s15,
+  .stars #s17,
+  .stars #s19,
+  .stars #s21,
+  .stars #s23,
+  .stars #s25,
+  .stars #s27,
+  .stars #s29,
+  .stars #s32,
+  .stars #s34,
+  .stars #s36,
+  .stars #s38 {
+    left: 20%;
+  }
+
+  .stars #s1,
+  .stars #s3,
+  .stars #s5,
+  .stars #s8,
+  .stars #s10,
+  .stars #s12,
+  .stars #s14,
+  .stars #s16,
+  .stars #s18,
+  .stars #s20,
+  .stars #s22,
+  .stars #s24,
+  .stars #s26,
+  .stars #s28,
+  .stars #s30,
+  .stars #s31,
+  .stars #s33,
+  .stars #s35,
+  .stars #s37 {
+    right: 10%;
+  }
+}

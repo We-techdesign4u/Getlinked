@@ -35,15 +35,27 @@
   font-weight: bold;
 }
 
-body {
-  background-color: #150e28;
-  padding: 0px;
-  margin: 0px;
+html {
+  scroll-behavior: smooth;
+  /* width: 1512; */
   overflow-x: hidden;
-  width: auto;
+  padding: 0px;
+  /* margin-top: -50px; */
+  background-color: #150e28;
+  /* box-sizing: border-box; */
   display: flex;
   justify-content: center;
-  align-items: center;
+}
+
+body {
+  /* background-color: #150e28; */
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  width: 1512;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
 }
 
 .main {
@@ -51,9 +63,10 @@ body {
   flex-direction: column;
   flex-grow: 1;
   width: 1512px;
-  justify-content: center;
   align-items: center;
   position: relative;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 
@@ -84,12 +97,17 @@ nav {
   flex-direction: row;
   height: 92px;
   padding: 0dvh 122px;
-  margin-top: 48px;
+  /* margin-top: 48px; */
   align-items: center;
-
   border-style: none none solid;
   border-width: 1px;
-  border-color: rgba(255, 255, 255, 0.352);
+  border-color: rgba(255, 255, 255, 0.178);
+  position: sticky;
+  top: 0px;
+  z-index: 60;
+  background-color: rgba(18, 3, 26, 0.91);
+  background-blend-mode: multiply;
+  box-sizing: border-box;
 }
 
 .logoContainer {
@@ -122,7 +140,6 @@ nav {
   display: flex;
   flex-direction: row;
   align-items: center;
-
   width: 425px;
   justify-content: space-between;
 }
@@ -132,6 +149,12 @@ nav {
   display: flex;
   font-family: montserrat;
   font-size: 16px;
+}
+
+.navlinks :hover {
+  background: linear-gradient(to right, #d434fe, #903aff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 .RegButtonContainer {
@@ -157,10 +180,6 @@ nav {
   text-decoration: none;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 .Banner,
 .introduction,
 .RulesnGuide,
@@ -180,6 +199,7 @@ html {
   border-style: none none solid;
   border-width: 1px;
   border-color: rgba(255, 255, 255, 0.352);
+  box-sizing: border-box;
 }
 
 .setback {
@@ -599,6 +619,11 @@ html {
   font-weight: bold;
   margin: 0px;
   line-height: 30px;
+  color: #d434fe;
+}
+
+.timelineCircle {
+  color: white;
 }
 
 .prize {
