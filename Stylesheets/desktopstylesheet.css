@@ -1,9 +1,9 @@
 @font-face {
   font-family: "ClashDisplay";
-  src: url('/Fonts/clashdisplay/ClashDisplay-Bold.eot');
+  src: url('${Fonts/clashdisplay/ClashDisplay-Bold.eot}');
   src: url('/Fonts/clashdisplay/ClashDisplay-Bold.eot') format("embedded-opentype"),
-    url('/Fonts/clashdisplay/ClashDisplay-Bold.woff') format("woff"),
-    url('/Fonts/clashdisplay/ClashDisplay-Bold.woff2') format("woff2");
+    url('${Fonts/clashdisplay/ClashDisplay-Bold.woff}') format("woff"),
+    url('${/Fonts/clashdisplay/ClashDisplay-Bold.woff2}') format("woff2");
 
   /* src: url("/Fonts/clashdisplay/ClashDisplay-Bold.woff2") format(".woff2"); */
   font-weight: bold;
@@ -24,7 +24,7 @@
 
 @font-face {
   font-family: "Unica";
-  src: url('Fonts/Others/UnicaOne-Regular.woff');
+  src: url("${Fonts/Others/UnicaOne-Regular.woff}");
   font-weight: 100;
 }
 
