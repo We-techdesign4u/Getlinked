@@ -1,0 +1,210 @@
+@media screen and (max-width: 900px) {
+  /* .contacts {
+    display: flex;
+    align-items: first baseline;
+  }
+
+  .contactsIcon {
+    display: flex;
+    width: 26px;
+  }
+
+  .footerRow2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    height: 20px;
+    font-size: 12px;
+  } */
+
+  .contact {
+    height: 100%;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background-color: aquamarine; */
+  }
+
+  .feathers2 {
+    width: 3px;
+    height: 3px;
+  }
+
+  #f12 {
+    display: none;
+  }
+  #f11 {
+    width: 400px;
+    height: 400px;
+    top: 11px;
+    left: -50px;
+  }
+
+  .stars {
+    width: 30px;
+    left: 20%;
+  }
+
+  #s35 {
+    bottom: 30px;
+  }
+
+  #s36,
+  #s34,
+  #s33,
+  #s35 {
+    bottom: 20%;
+    top: 20%;
+  }
+
+  .contactCol1 {
+    display: none;
+  }
+
+  .contactheading {
+    font-size: 32px;
+    font-family: ClashDisplay;
+    font-weight: bold;
+  }
+
+  .contactCol2 {
+    display: flex;
+    flex-direction: row;
+    width: 390px;
+    align-items: center;
+    height: 693px;
+  }
+
+  .contactformtitle {
+    width: 100%;
+    font-family: clashdisplay;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 100;
+    /* background-color: aqua; */
+  }
+
+  .mobiletext {
+    width: 100%;
+    font-size: 12px;
+    font-family: montserrat;
+    line-height: 22px;
+    color: white;
+    display: flex;
+  }
+
+  .contactformCont,
+  .registerFormCont {
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    height: 614px;
+    opacity: 1;
+    background-color: transparent;
+    border-radius: 12px;
+    padding: 0px 46px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: none;
+    box-sizing: border-box;
+  }
+
+  input {
+    width: 298px;
+    height: 47px;
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.03);
+    padding: 0px 27px;
+    box-sizing: border-box;
+  }
+
+  .message input {
+    height: 160px;
+  }
+
+  .register {
+    height: 848px;
+  }
+
+  .registercol1 {
+  }
+
+  .registerFormCont {
+    height: 600px;
+    width: 600px;
+  }
+
+  .formdoublecol {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 560px;
+    height: 288px;
+  }
+
+  .formdoublecol input {
+    width: 203px;
+    height: 47px;
+  }
+
+  .formcol1,
+  .formcol2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 281px;
+    color: white;
+    font-family: montserrat;
+    font-size: 14px;
+  }
+
+  .congratsOverlay {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(21, 14, 40, 0.93);
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+    background-blend-mode: overlay;
+  }
+
+  .congratsBox {
+    width: 590px;
+    height: 554px;
+    padding: 55px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #d434fe, #903aff) 1;
+    background-image: none;
+    border-style: solid;
+    border-radius: 4px;
+  }
+
+  .congratsImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .successdone {
+    margin-right: -180px;
+  }
+
+  .congratsText {
+    font-family: montserrat;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  .emoji {
+    margin-bottom: -5px;
+  }
+}
