@@ -20,42 +20,40 @@
   } */
 
   .contact {
-    height: 100%;
+    height: fit-content;
     padding: 0px;
     box-sizing: border-box;
+    border-style: none;
     /* background-color: aquamarine; */
+    overflow-x: hidden;
   }
 
   .feathers2 {
-    width: 3px;
-    height: 3px;
+    /* width: 30px;
+    height: 30px; */
   }
 
   #f12 {
     display: none;
   }
   #f11 {
-    width: 400px;
-    height: 400px;
-    top: 11px;
+    width: 350px;
+    height: 350px;
+
+    top: 30px;
     left: -50px;
   }
 
   .stars {
-    width: 30px;
-    left: 20%;
-  }
-
-  #s35 {
-    bottom: 30px;
+    width: 10px;
+    height: 10px;
   }
 
   #s36,
   #s34,
   #s33,
   #s35 {
-    bottom: 20%;
-    top: 20%;
+    top: 0;
   }
 
   .contactCol1 {
@@ -108,6 +106,7 @@
     align-items: center;
     box-shadow: none;
     box-sizing: border-box;
+    border-style: none;
   }
 
   input {
@@ -127,28 +126,52 @@
   }
 
   .register {
-    height: 848px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: 1;
+    box-sizing: border-box;
+    /* background-color: #d434fe; */
+    padding: 50px;
+    border-style: none;
+    border-width: 0px;
   }
 
   .registercol1 {
+    width: 390px;
+    display: flex;
+    align-items: center;
+    height: 250px;
+    justify-content: center;
+    /* background-color: #d434fe; */
+  }
+  .registercol1 img {
+    width: 195px;
   }
 
   .registerFormCont {
-    height: 600px;
-    width: 600px;
+    height: 680px;
+    width: 390px;
+    padding: 20px 50px;
+    box-sizing: border-box;
+    /* background-color: #903aff; */
   }
 
   .formdoublecol {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    width: 560px;
-    height: 288px;
+    width: 390px;
+    height: 524px;
+    padding: 0px 40px;
+    box-sizing: border-box;
+    /* background-color: #d434fe; */
   }
 
   .formdoublecol input {
-    width: 203px;
-    height: 47px;
+    width: 263px;
+    height: 39px;
   }
 
   .formcol1,
@@ -156,12 +179,19 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 281px;
+    height: 235px;
     color: white;
     font-family: montserrat;
-    font-size: 14px;
+    font-size: 13px;
+    width: 266px;
+    padding-bottom: 10px;
+    /* background-color: #d434fe; */
   }
 
+  .registerFormCont .basetext {
+    height: fit-content;
+    padding: 20px 0px;
+  }
   .congratsOverlay {
     position: absolute;
     display: flex;

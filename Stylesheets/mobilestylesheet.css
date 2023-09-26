@@ -1126,7 +1126,7 @@
     box-sizing: border-box;
   }
 
-  .contacts {
+  /* .contacts {
     display: flex;
     align-items: first baseline;
   }
@@ -1296,4 +1296,4 @@
   .emoji {
     margin-bottom: -5px;
   }
-}
+} */
