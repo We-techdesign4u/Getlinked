@@ -19,16 +19,9 @@
 
 @font-face {
   font-family: "Unica";
-  src: url("./UnicaOne-Regular.ttf");
+  src: url("../fonts/Others/UnicaOne-Regular.ttf");
   font-weight: 100;
 }
-
-/* @font-face {
-  font-family: "MadeTommy";
-  src: url("./MADETOMMYOutline-Bold.woff"), url("./MADETOMMYOutline-Bold.woff2"),
-    url("./MADETOMMYOutline-Bold.eot");
-  font-weight: bold;
-} */
 
 @font-face {
   font-family: "MadeTommy";
@@ -164,6 +157,12 @@ nav {
 }
 
 .navlinks :hover {
+  background: linear-gradient(to right, #d434fe, #903aff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.navlinks :active {
   background: linear-gradient(to right, #d434fe, #903aff);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -1021,4 +1020,92 @@ input {
 
 .emoji {
   margin-bottom: -5px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  height: 380px;
+  background-color: #100b20;
+  padding: 70px 130px 0px 130px;
+  color: white;
+  font-family: montserrat;
+}
+
+.footerlogo {
+  font-family: clashdisplay;
+  font-size: 30px;
+}
+
+span {
+  color: #d434fe;
+}
+
+.body12 {
+  font-size: 12px;
+}
+
+.footerRow1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.footerR1C1 {
+  display: flex;
+  flex-direction: column;
+  width: 412px;
+  padding: 0px 190px 0px 90px;
+}
+
+.footerR1C2 {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+.footerR1C2 a {
+  color: white;
+  text-decoration: none !important;
+}
+
+.followus {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 180px;
+  /* width: inherit; */
+}
+
+.followus a {
+  width: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerR1C2 p,
+.footerR1C3 p {
+  font-size: 12px;
+}
+
+.footerR1C3 {
+  display: flex;
+  flex-direction: column;
+  width: 209px;
+}
+
+.contacts {
+  display: flex;
+  align-items: first baseline;
+}
+
+.contactsIcon {
+  display: flex;
+  width: 26px;
+}
+
+.footerRow2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 93px;
 }

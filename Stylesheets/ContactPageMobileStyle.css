@@ -1,38 +1,4 @@
 @media screen and (max-width: 900px) {
-  /* .contacts {
-    display: flex;
-    align-items: first baseline;
-  }
-
-  .contactsIcon {
-    display: flex;
-    width: 26px;
-  }
-
-  .footerRow2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 20px;
-    box-sizing: border-box;
-    height: 20px;
-    font-size: 12px;
-  } */
-
-  .contact {
-    height: fit-content;
-    padding: 0px;
-    box-sizing: border-box;
-    border-style: none;
-    /* background-color: aquamarine; */
-    overflow-x: hidden;
-  }
-
-  .feathers2 {
-    /* width: 30px;
-    height: 30px; */
-  }
-
   #f12 {
     display: none;
   }
