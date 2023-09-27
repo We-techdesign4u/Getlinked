@@ -92,36 +92,49 @@
   }
 
   .register {
-    height: fit-content;
+    height: 844px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex-wrap: 1;
+    flex-grow: 0;
     box-sizing: border-box;
-    /* background-color: #d434fe; */
-    padding: 50px;
+    padding: 30px 0px;
     border-style: none;
     border-width: 0px;
+    margin: 0px;
+    align-items: center;
+    width: 390px;
   }
 
   .registercol1 {
-    width: 390px;
+    /* width: 390px; */
     display: flex;
     align-items: center;
-    height: 250px;
+    height: 155px;
     justify-content: center;
-    /* background-color: #d434fe; */
+    padding: 50px 0px;
+    box-sizing: content-box;
   }
+
   .registercol1 img {
-    width: 195px;
+    width: 155px;
   }
 
   .registerFormCont {
-    height: 680px;
+    height: 616px;
     width: 390px;
-    padding: 20px 50px;
+    padding: 20px 64px;
     box-sizing: border-box;
-    /* background-color: #903aff; */
+    display: flex;
+    justify-content: center;
+  }
+
+  .contactformtitle p {
+    margin: 0px;
+  }
+
+  .contactformtitle .CYA {
+    font-size: 20px;
   }
 
   .formdoublecol {
@@ -129,9 +142,10 @@
     flex-direction: column;
     justify-content: space-between;
     width: 390px;
-    height: 524px;
-    padding: 0px 40px;
+    height: 323px;
+    /* padding: 0px 40px; */
     box-sizing: border-box;
+    align-items: center;
     /* background-color: #d434fe; */
   }
 
@@ -142,22 +156,56 @@
 
   .formcol1,
   .formcol2 {
-    display: flex;
+    display: inline;
     flex-direction: column;
     justify-content: space-between;
-    height: 235px;
+    height: 187px;
     color: white;
     font-family: montserrat;
     font-size: 13px;
-    width: 266px;
-    padding-bottom: 10px;
-    /* background-color: #d434fe; */
+    width: 263px;
+    padding-bottom: 20px;
+    /* align-items: center; */
+
+    line-height: 10px;
+  }
+
+  .formcol1 p,
+  .formcol2 p {
+    margin: 0px;
+    padding: 10px 0px;
+    width: 90px;
+  }
+
+  .projectT input {
+    width: 155px;
+  }
+
+  .groupS input {
+    width: 87px;
+  }
+
+  .formcol2 .projectT,
+  .formcol2 .groupS {
+    float: left;
+  }
+
+  .projectT {
+    padding-right: 18px;
   }
 
   .registerFormCont .basetext {
-    height: fit-content;
+    height: 76px;
     padding: 20px 0px;
+
+    display: flex;
+    flex-direction: column;
   }
+
+  .congratsNoOverlay {
+    display: none;
+  }
+
   .congratsOverlay {
     position: absolute;
     display: flex;
@@ -171,14 +219,15 @@
   }
 
   .congratsBox {
-    width: 590px;
-    height: 554px;
-    padding: 55px;
+    width: 80%;
+    height: 467px;
+    padding: 32px;
     border-style: solid;
     border-image: linear-gradient(to right, #d434fe, #903aff) 1;
     background-image: none;
     border-style: solid;
     border-radius: 4px;
+    box-sizing: border-box;
   }
 
   .congratsImg {
@@ -189,14 +238,19 @@
   }
 
   .successdone {
-    margin-right: -180px;
+    margin-right: -120px;
+    width: 174px;
+  }
+
+  .successman {
+    width: 185px;
   }
 
   .congratsText {
     font-family: montserrat;
     color: white;
     text-align: center;
-    font-size: 32px;
+    font-size: 16px;
     font-weight: bold;
   }
 

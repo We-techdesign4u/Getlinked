@@ -91,6 +91,10 @@ input {
   height: 288px;
 }
 
+.CYA {
+  font-size: 24px;
+}
+
 .formdoublecol input {
   width: 203px;
   height: 47px;
@@ -105,6 +109,10 @@ input {
   color: white;
   font-family: montserrat;
   font-size: 14px;
+}
+
+.congratsNoOverlay {
+  display: none;
 }
 
 .congratsOverlay {

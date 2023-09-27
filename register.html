@@ -8,11 +8,53 @@
     <link rel="stylesheet" href="Stylesheets/gradientbg.css" />
     <link rel="stylesheet" href="Stylesheets/stars.css" />
     <link rel="stylesheet" href="Stylesheets/mobilestylesheet.css" />
+    <link rel="stylesheet" href="/Stylesheets/ContactPageStyle.css" />
     <link rel="stylesheet" href="Stylesheets/ContactPageMobileStyle.css" />
     <script src="JS/script.js"></script>
   </head>
   <body>
     <div class="main">
+      <div class="congratsNoOverlay" id="overlay">
+        <div class="congratsBox">
+          <div class="congratsImg">
+            <img
+              class="successdone"
+              src="Images/successfully-done-5108472-4288033 1.png"
+              alt=""
+            />
+            <img
+              class="successman"
+              src="Images/successful-man-3025713-2526911 1.png"
+              alt=""
+            />
+          </div>
+          <div class="congratsText">
+            <p>
+              Congratulations<br />
+              you have successfully Registered!
+            </p>
+            <p style="font-size: 14px; font-weight: 100">
+              Yes, it was easy and you did it! <br />check your mail box for
+              next step
+              <img
+                class="emoji"
+                src="Images/1531010992wink-emoji-woman-png 1.png"
+                alt=""
+              />
+            </p>
+          </div>
+          <div style="width: 100%">
+            <a
+              style="width: 100%"
+              href="javascript:void(0);"
+              onclick="congratsactive()"
+              class="regbutton"
+              id="congratsoverlayactive"
+              ><div>Back</div></a
+            >
+          </div>
+        </div>
+      </div>
       <div class="feathers2">
         <div id="f11"></div>
         <div id="f12"></div>
@@ -97,7 +139,7 @@
               <p style="font-family: montserrat; color: white; font-size: 14px">
                 Be part of this movement!
               </p>
-              <p style="font-family: montserrat; color: white; font-size: 24px">
+              <p class="CYA" style="font-family: montserrat; color: white">
                 CREATE YOUR ACCOUNT
               </p>
             </div>
@@ -129,7 +171,7 @@
                 </div>
               </div>
               <div class="formcol2">
-                <div class="firstname">
+                <div class="phone">
                   <p>Phone</p>
                   <input
                     type="text"
@@ -137,7 +179,7 @@
                     placeholder="Enter your phone number"
                   />
                 </div>
-                <div class="mail">
+                <div class="projectT">
                   <p>Project Topic</p>
                   <input
                     type="text"
@@ -145,7 +187,7 @@
                     placeholder="What is your group project topic"
                   />
                 </div>
-                <div class="message">
+                <div class="groupS">
                   <p>Group Size</p>
                   <input type="text" name="" placeholder="Select" />
                 </div>
@@ -180,7 +222,12 @@
             </div>
 
             <div style="width: 100%; padding: 20px 0px">
-              <a class="regbutton" style="width: 100%" href=""
+              <a
+                href="javascript:void(0);"
+                onclick="congratsactive()"
+                class="regbutton"
+                style="width: 100%"
+                id="congratsoverlayactive"
                 ><div>Register Now</div></a
               >
             </div>
